@@ -8,6 +8,13 @@ A source release will be available in late 2022.
 We provide a container image at `ghcr.io/reactive-systems/bocosy:hscc`.  
 Just start it up and take a look inside. It contains its own readme.
 
+### Current Limitations
+
+The current implementation has some limitations which we will fix for the source release:
+
+- The synthesized controller will have Mealy semantics and the plant models have to have Moore semantics.
+- The reference plant model has to be deterministic.
+
 ## Further Reading
 
 BOCoSy is based on [BoSy](https://www.react.uni-saarland.de/tools/bosy/) a tool and framework for bounded synthesis.
